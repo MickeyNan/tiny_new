@@ -1,0 +1,24 @@
+Tiny Web server
+The author is Mickey Nan form China
+
+This is a extremely  clean and small server providing static and some dynamic service.
+
+This software takes the CMU Understanding the Computer System from a Programmer’s Perspective as a reference. And some new and more powerful ability(multi process ,process-poll and thread-poll, further more the aio and Linux-epoll will also be considered ) is added to enhance the performance. 
+
+Tiny is neither secure nor complete(such as ssl and other clusters of HTTP is not given ),because till now only the processing ability is considered.
+ 
+This server is tested  under the environment of CentOS 6.5 (a kind of RedHat like Linux OS), and it works well.
+
+Some test index file which is a html file and the test photograph is also packed into this package. ALSO, a test file which is written in python is also provided.
+
+
+Files:
+  tiny.tar		Archive of everything in this directory
+  tiny.c		The Tiny server
+  Makefile		Makefile for tiny.c
+  home.html		Test HTML page
+  godzilla.gif		Image embedded in home.html
+  README		This file	
+  cgi-bin/adder.c	CGI program that adds two numbers
+  cgi-bin/Makefile	Makefile for adder.c
+
